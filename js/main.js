@@ -7,7 +7,7 @@ window.onload = function(){
     let time = document.getElementById('time');
     
     btnStart.addEventListener('click', function(){
-        var num = 1500;
+        var num = 1499;
         var x = setInterval(function(){
             var minutes = Math.floor(num / 60);
             var seconds = num-60*minutes
@@ -23,10 +23,7 @@ window.onload = function(){
 
             time.innerHTML = minutes + ':' + seconds;
 
-
              num -= 1;
-
-
         btnStop.addEventListener('click', function(){
             clearInterval(x);
             time.innerHTML = "25:00";

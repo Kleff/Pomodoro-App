@@ -19,14 +19,23 @@ body {
 }
 
 header {
-    background: #E52020;
+    text-align: center;
+    background: #ff2b2b;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0px 2px 15px #af1818;
+    overflow: hidden;
 }
 
-h1 {
-    text-align: center;
+header img {
+    display: inline-block;
+    height: 25px;
+    margin-left: 5px;
+
+}
+
+ header h1 {
+    display: inline-block;
     padding: 15px 0;
     font-size: 25px;
     color: #F2F2F2;
@@ -55,7 +64,7 @@ h1 {
 }
 
 .buttons a {
-    background: #E52020;
+    background: #ff2b2b;
     display: inline-block;
     margin: 20px;
     line-height: 60px;
