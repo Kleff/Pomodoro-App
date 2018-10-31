@@ -13,14 +13,25 @@ html {
 }
 
 body {
+<<<<<<< HEAD
+=======
+    background: #FF4444;
+>>>>>>> origin/master
     color: white;
     font-family: 'Lato', sans-serif;
 }
 
 header {
     text-align: center;
+<<<<<<< HEAD
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+=======
+    background: #ff2b2b;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 2px 15px #af1818;
+>>>>>>> origin/master
     overflow: hidden;
 }
 
@@ -48,6 +59,10 @@ header img {
     padding: 20px;
     border: 2px solid #fff;
     border-radius: 50%;
+<<<<<<< HEAD
+=======
+    box-shadow: 0px 2px 7px #991616;
+>>>>>>> origin/master
 }
 
 .timer p {
@@ -59,6 +74,7 @@ header img {
     text-align: center;
 }
 
+<<<<<<< HEAD
 .btnStop {
     display: 'none';
 }
@@ -67,6 +83,14 @@ header img {
     display: inline-block;
     margin: 20px 10px;
     line-height: 60px;
+=======
+.buttons a {
+    background: #ff2b2b;
+    display: inline-block;
+    margin: 20px;
+    line-height: 60px;
+    box-shadow: 0px 2px 7px #991616;
+>>>>>>> origin/master
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -80,6 +104,7 @@ header img {
     box-shadow: none;
 }
 
+<<<<<<< HEAD
 /* Clases de colores que cambian con JS  */ 
 
 .dark-color {
@@ -97,3 +122,8 @@ header img {
 
 
 
+=======
+.btnStop {
+
+}
+>>>>>>> origin/master
