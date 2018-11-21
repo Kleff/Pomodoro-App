@@ -19,12 +19,12 @@ window.onload = function () {
     let timeRelax = 10;
     let rest = timeRelax;
 
-
+    // Start Button
     btnStart.addEventListener('click', function () {
         if (isRelaxRunning !== true) {
             isStartRunning = true;
             message.textContent = "Working..."
-            if(!isPaused){
+            if (!isPaused) {
                 num = timeWork;
             }
             isPaused = false;
@@ -60,11 +60,11 @@ window.onload = function () {
                 }
                 // Button Pause
                 btnPauseStart.addEventListener('click', function () {
-                        clearInterval(x);
-                        isPaused = true;
-                        btnPauseStart.style.display = 'none';
-                        btnStart.style.display = 'inline-block';
-                        message.innerHTML = 'paused!';
+                    clearInterval(x);
+                    isPaused = true;
+                    btnPauseStart.style.display = 'none';
+                    btnStart.style.display = 'inline-block';
+                    message.innerHTML = 'paused!';
                 })
             }, 1000);
         }
@@ -101,7 +101,7 @@ window.onload = function () {
             }
             // -End
 
-            if(!isPaused){
+            if (!isPaused) {
                 rest = timeRelax;
             }
             isPaused = false;
@@ -149,7 +149,7 @@ window.onload = function () {
                     btnRelax.style.display = 'inline-block';
                 })
 
-                btnStop.addEventListener('click', function(){
+                btnStop.addEventListener('click', function () {
                     message.textContent = "Let's Start!"
                     rest = timeRelax;
                     isRelaxRunning = false;
